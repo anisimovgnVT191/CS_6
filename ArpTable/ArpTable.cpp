@@ -43,7 +43,7 @@ public:
     }
 
     DWORD deleteIpNetEntry(std::string ipAddress, DWORD adapterIndex) {
-        
+        std::cout << "test com";
     }
 
     DWORD createIpNetEntry(std::string ipAddress, DWORD adapterIndex, std::string macAddress) {
